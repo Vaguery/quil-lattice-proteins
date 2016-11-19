@@ -24,7 +24,7 @@
 (defn update-state
   [state]
   (let [old-markers (:markers state)]
-    { :cursor    [(rand-int 10) (rand-int 10)]
+    { :cursor    [(- (rand-int 20) 10) (- (rand-int 20) 10)]
       :direction :east
       :markers   (conj (into [] (rest old-markers)) (first old-markers))
     }))
@@ -33,11 +33,12 @@
 (defn draw-state
   [state]
 
+
   (q/no-stroke)
   (let [[i j]     (:cursor state)
         cell-size 20]
 
-    (q/fill (rand-int 255) 200 200)
+    (q/fill 255 200 10 50)
     (q/with-translation [(+ (* cell-size i) (/ (q/width) 2))
                          (+ (* cell-size j) (/ (q/width) 2))] 
       (q/text (str (first (:markers state))) 0 0))
