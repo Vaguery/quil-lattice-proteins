@@ -287,3 +287,47 @@ notifying browser that file changed:  out/lattice_proteins/core.js
 [0mCompiling "js/main.js" from ["src"]...[0m
 [32mSuccessfully compiled "js/main.js" in 1.175 seconds.[0m
 notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.48 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.473 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.445 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.5 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.57 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.484 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[31mFailed to compile "js/main.js" in 0.336 seconds.[0m
+[36m----  Could not Read  src/lattice_proteins/core.cljs   line:24  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 24 and column 1[0m
+
+  [33m24[0m  [1m(defn update-state[0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 24 and column 1[0m
+  [36m25[0m  [36m  [state][0m
+  [36m26[0m  [36m  (let [old-markers (:markers state)][0m
+  [36m27[0m  [36m    { :cursor    [(rand-int 10) (rand-int 10)][0m
+
+[36m----  Reader Error : Please see src/lattice_proteins/core.cljs  ----[0m
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.447 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.622 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.589 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
