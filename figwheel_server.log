@@ -126,3 +126,164 @@ notifying browser that file changed:  out/lattice_proteins/core.js
 [32mSuccessfully compiled "js/main.js" in 0.635 seconds.[0m
 notifying browser that file changed:  out/cljs_deps.js
 notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[31mFailed to compile "js/main.js" in 1.504 seconds.[0m
+[36m----  Could not Read  src/lattice_proteins/core.cljs   line:15  column:1  ----[0m
+
+  [1mEOF while reading, starting at line 15 and column 1[0m
+
+  [33m15[0m  [1m(defn put-in-cell[0m
+  [0m  [0m  [33m^--- EOF while reading, starting at line 15 and column 1[0m
+  [36m16[0m  [36m  [i j cell-size][0m
+  [36m17[0m  [36m  (partial (q/with-translation [(+ (* cell-size i) (/ (q/width) 2))[0m
+  [36m18[0m  [36m                                (+ (* cell-size j) (/ (q/width) 2))]))[0m
+
+[36m----  Reader Error : Please see src/lattice_proteins/core.cljs  ----[0m
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 4.074 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[31mFailed to compile "js/main.js" in 0.585 seconds.[0m
+[36m----  Could not Read  src/lattice_proteins/core.cljs   line:41  column:10  ----[0m
+
+  [1mUnmatched delimiter )[0m
+
+  [36m39[0m  [36m      (q/ellipse 0 0 3 3))[0m
+  [36m40[0m  [36m      [0m
+  [33m41[0m  [1m      )))[0m
+  [0m  [0m  [33m         ^--- Unmatched delimiter )[0m
+  [36m42[0m  [36m[0m
+  [36m43[0m  [36m[0m
+  [36m44[0m  [36m(q/defsketch lattice-proteins[0m
+
+[36m----  Reader Error : Please see src/lattice_proteins/core.cljs  ----[0m
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.172 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.37 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.105 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.81 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.653 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.473 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.853 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.824 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.795 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.39 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.728 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.759 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.793 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.72 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.78 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.951 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.534 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.804 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.244 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.683 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.532 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.72 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.661 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.549 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.489 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.542 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.692 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.698 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.494 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.503 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.474 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.725 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.481 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.601 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.56 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.692 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 1.175 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
