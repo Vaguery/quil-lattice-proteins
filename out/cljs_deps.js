@@ -20,14 +20,14 @@ goog.addDependency("../cljs/reader.js", ['cljs.reader'], ['goog.string', 'cljs.c
 goog.addDependency("../figwheel/client/socket.js", ['figwheel.client.socket'], ['cljs.core', 'figwheel.client.utils', 'cljs.reader']);
 goog.addDependency("../figwheel/client/heads_up.js", ['figwheel.client.heads_up'], ['goog.dom', 'goog.string', 'cljs.core', 'goog.dom.dataset', 'goog.object', 'cljs.core.async', 'cljs.pprint', 'figwheel.client.socket', 'clojure.string']);
 goog.addDependency("../figwheel/client.js", ['figwheel.client'], ['goog.userAgent.product', 'goog.Uri', 'cljs.core', 'goog.object', 'cljs.core.async', 'figwheel.client.file_reloading', 'figwheel.client.utils', 'cljs.repl', 'figwheel.client.heads_up', 'figwheel.client.socket', 'clojure.string', 'cljs.reader']);
+goog.addDependency("../processing.js", ['org.processingjs.Processing'], []);
 goog.addDependency("../quil/middlewares/deprecated_options.js", ['quil.middlewares.deprecated_options'], ['cljs.core']);
 goog.addDependency("../quil/util.js", ['quil.util'], ['cljs.core', 'clojure.string']);
 goog.addDependency("../quil/sketch.js", ['quil.sketch'], ['goog.dom', 'cljs.core', 'quil.middlewares.deprecated_options', 'goog.events.EventType', 'goog.events', 'quil.util']);
-goog.addDependency("../processing.js", ['org.processingjs.Processing'], []);
 goog.addDependency("../quil/core.js", ['quil.core'], ['org.processingjs.Processing', 'quil.sketch', 'cljs.core', 'clojure.string', 'quil.util']);
-goog.addDependency("../quil/middlewares/fun_mode.js", ['quil.middlewares.fun_mode'], ['cljs.core', 'quil.core']);
 goog.addDependency("../quil/middlewares/navigation_3d.js", ['quil.middlewares.navigation_3d'], ['cljs.core', 'quil.core']);
 goog.addDependency("../quil/middlewares/navigation_2d.js", ['quil.middlewares.navigation_2d'], ['cljs.core', 'quil.core']);
+goog.addDependency("../quil/middlewares/fun_mode.js", ['quil.middlewares.fun_mode'], ['cljs.core', 'quil.core']);
 goog.addDependency("../quil/middleware.js", ['quil.middleware'], ['cljs.core', 'quil.middlewares.navigation_3d', 'quil.middlewares.navigation_2d', 'quil.middlewares.fun_mode']);
 goog.addDependency("../lattice_proteins/core.js", ['lattice_proteins.core'], ['cljs.core', 'quil.core', 'quil.middleware']);
 goog.addDependency("../7C86C53.js", ['figwheel.connect.dev'], ['cljs.core', 'lattice_proteins.core', 'figwheel.client', 'figwheel.client.utils']);

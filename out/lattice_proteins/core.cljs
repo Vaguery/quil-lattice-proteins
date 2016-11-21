@@ -5,13 +5,17 @@
 (def cell-size 20)
 
 
+(defn random-fold
+  [length]
+  (into [] (repeatedly length #(rand-nth [:east :south :west :north]))))
+
+
 (defn setup
   []
   (q/frame-rate 30)
   (q/color-mode :hsb)
   (q/background 230)
-
-  {:chain [:east :east :north :north :east :south :east :north :north :north :north :west]
+  {:chain (random-fold 3)
    :cursor [0 0]}
   )
 

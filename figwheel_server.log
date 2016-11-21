@@ -688,3 +688,19 @@ notifying browser that file changed:  out/lattice_proteins/core.js
 [32mSuccessfully compiled "js/main.js" in 0.592 seconds.[0m
 notifying browser that file changed:  out/cljs_deps.js
 notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.868 seconds.[0m
+notifying browser that file changed:  out/goog/deps.js
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.91 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.535 seconds.[0m
+notifying browser that file changed:  out/cljs_deps.js
+notifying browser that file changed:  out/lattice_proteins/core.js
+[0mCompiling "js/main.js" from ["src"]...[0m
+[32mSuccessfully compiled "js/main.js" in 0.948 seconds.[0m
+notifying browser that file changed:  out/lattice_proteins/core.js
