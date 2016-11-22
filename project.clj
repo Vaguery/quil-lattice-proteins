@@ -5,7 +5,8 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [quil "2.5.0"]
-                 [org.clojure/clojurescript "1.9.293"]]
+                 [org.clojure/clojurescript "1.9.293"]
+                 [devcards "0.2.2"]]
 
   :plugins [[lein-cljsbuild "1.1.4"]
             [lein-figwheel "0.5.8"]]
@@ -15,9 +16,10 @@
   {:builds [{:source-paths ["src"]
              :id "dev"
              :figwheel true
-             :compiler
-             {:output-to "js/main.js"
-              :output-dir "out"
-              :main "lattice_proteins.core"
-              :optimizations :none
-              :pretty-print true}}]})
+             :compiler {
+                :output-to "js/main.js"
+                :output-dir "out"
+                :main "lattice_proteins.core"
+                :optimizations :none
+                :pretty-print true}}
+                ]})
