@@ -3,23 +3,20 @@
             [quil.middleware :as m])
   )
 
-(def cell-size 10)
+(def cell-size 6)
 
 
 (defn setup
   []
-  (q/frame-rate 30)
+  (q/frame-rate 60)
   (q/color-mode :hsb)
   (q/background 230)
-  {:chain (into [] (concat (repeat 2 :east)
+  {:chain (into [] (concat (repeat 20 :west)
                            (repeat 2 :north)
-                           (repeat 3 :west)
-                           (repeat 4 :south)
-                           (repeat 5 :east)
-                           (repeat 6 :north)
-                           (repeat 7 :west)
-                           (repeat 8 :south)
-                           (repeat 9 :east)))
+                           (repeat 40 :east)
+                           (repeat 2 :north)
+                           (repeat 20 :west)
+                           ))
    :cursor [0 0]
    :frustration 0
    :updates 0}
@@ -28,7 +25,7 @@
 
 (defn random-fold
   [chain]
-  (let [changed-idx (inc (rand-int (dec (count chain))))]
+  (let [changed-idx (rand-int (count chain))]
 
     (into [] 
       (concat (take changed-idx chain)
@@ -96,10 +93,8 @@
 
 (defn draw-state
   [state]
-  (q/background 230)
-  (q/fill 99 255 0 100)
-  (q/text (/ (:frustration state) (:updates state)) 10 10)
-  (q/fill 99 255 200 100)
+  (q/background 40 10 248)
+  (q/fill 130 255 200 150)
   (loop [cursor (:cursor state)
          chain  (:chain state)]
     (let [[i j] cursor]
@@ -108,7 +103,7 @@
         (q/stroke 255 255 0 100)
         (apply q/line (concat [0 0] (end-point (first chain) cell-size)))
         (q/no-stroke)
-        (q/ellipse 0 0 10 10)
+        (q/ellipse 0 0 (dec cell-size) (dec cell-size))
         )
       (if (empty? chain)
         nil
@@ -121,7 +116,7 @@
 
 (q/defsketch lattice-proteins
   :host "lattice-proteins"
-  :size [500 500]
+  :size [400 400]
   :setup setup
   :draw draw-state
   :update update-state
